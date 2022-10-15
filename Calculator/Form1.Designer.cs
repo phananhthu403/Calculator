@@ -33,7 +33,7 @@
             this.txtSoa = new System.Windows.Forms.TextBox();
             this.txtSob = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtKetqua = new System.Windows.Forms.TextBox();
             this.btCong = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -83,13 +83,13 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Kết quả";
             // 
-            // textBox1
+            // txtKetqua
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(157, 163);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(174, 29);
-            this.textBox1.TabIndex = 1;
+            this.txtKetqua.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtKetqua.Location = new System.Drawing.Point(157, 163);
+            this.txtKetqua.Name = "txtKetqua";
+            this.txtKetqua.Size = new System.Drawing.Size(174, 29);
+            this.txtKetqua.TabIndex = 1;
             // 
             // btCong
             // 
@@ -100,6 +100,7 @@
             this.btCong.TabIndex = 2;
             this.btCong.Text = "Cộng";
             this.btCong.UseVisualStyleBackColor = true;
+            this.btCong.Click += new System.EventHandler(this.btCong_Click);
             // 
             // Form1
             // 
@@ -107,7 +108,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(365, 334);
             this.Controls.Add(this.btCong);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtKetqua);
             this.Controls.Add(this.txtSob);
             this.Controls.Add(this.txtSoa);
             this.Controls.Add(this.label3);
@@ -127,7 +128,7 @@
         private System.Windows.Forms.TextBox txtSoa;
         private System.Windows.Forms.TextBox txtSob;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtKetqua;
         private System.Windows.Forms.Button btCong;
     }
 }
