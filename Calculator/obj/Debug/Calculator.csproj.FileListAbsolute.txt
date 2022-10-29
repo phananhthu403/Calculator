@@ -8,3 +8,6 @@ D:\Calculator\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.re
 D:\Calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
 D:\Calculator\Calculator\Calculator\obj\Debug\Calculator.exe
 D:\Calculator\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Calculator\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Calculator\Calculator\Calculator\obj\Debug\Calculator.pdb
